@@ -1,9 +1,7 @@
 define([], function() {
   'use strict';
 
-  var config = function($routeProvider, $locationProvider) {
-
-    $locationProvider.html5Mode(true);
+  var config = function($routeProvider) {
 
     $routeProvider
       .when(
@@ -26,7 +24,7 @@ define([], function() {
       });
   };
 
-  config.$inject = ['$routeProvider', '$locationProvider'];
+  config.$inject = ['$routeProvider'];
 
   return config;
 });
