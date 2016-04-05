@@ -1,9 +1,8 @@
-define([], function() {
+define(['app'], function(app) {
     'use strict';
 
-    angular.module('ES.Home', [])
-        .controller("HomeCtrl", function(HomeData) {
+        app.controller("HomeCtrl", function() {
             var vm = this;
-            vm.msg = HomeData.msg;
+            vm.msg = "teste";
         });
 });

@@ -17,18 +17,16 @@
             'angular-route': {
                 deps: ['angular']
             },
-            'app.module': {
+            'app': {
                 deps: ['angular', 'angular-route']
             }
         }
     });
 
     require(
-        ['app.module'],
+        ['app'],
         function(app) {
-            angular.bootstrap(document, [app.name], {
-                strictDi: false
-            });
+            angular.bootstrap(document, ['ES']);
         }
     );
 
