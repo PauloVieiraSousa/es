@@ -6,9 +6,9 @@
         urlArgs: 'v=0.1',
         waitSeconds: 0,
         paths: {
-            'angular': '../assets/libs/angular/angular',
-            'angular-route': '../assets/libs/angular-route/angular-route',
-            'ocLazyLoad': '../assets/libs/ocLazyLoad/dist/ocLazyLoad.require',
+            'angular': '../assets/js/angular/angular.min',
+            'angular-route': '../assets/js/angular/angular-route.min',
+            'ocLazyLoad': '../assets/js/oclazyload/ocLazyLoad.require.min',
         },
         shim: {
             'angular': {
