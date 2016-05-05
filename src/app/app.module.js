@@ -1,6 +1,7 @@
 define(
     [
         'config/app.config',
+        'config/app.vendor',
         'modules/login/login.module',
         'modules/home/home.module'
     ],

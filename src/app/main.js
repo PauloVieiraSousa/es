@@ -1,5 +1,4 @@
 (function() {
-
     'use strict';
 
     require.config({
@@ -8,7 +7,8 @@
         waitSeconds: 0,
         paths: {
             'angular': '../assets/libs/angular/angular',
-            'angular-route': '../assets/libs/angular-route/angular-route'
+            'angular-route': '../assets/libs/angular-route/angular-route',
+            'ocLazyLoad': '../assets/libs/ocLazyLoad/dist/ocLazyLoad.require',
         },
         shim: {
             'angular': {
